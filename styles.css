@@ -1,0 +1,16 @@
+body { 
+    background-color: #F1E0FF;
+}
+@font-face {
+    font-family: 'xenuhand'; /*a name to be used later*/
+    src: url('Xenuhand.ttf'); /*URL to font*/
+}
+.question { 
+    color: #520290;
+    text-align: center;
+    font-family: xenuhand;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
