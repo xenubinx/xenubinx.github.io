@@ -7,6 +7,11 @@
   src: url(fonts/Alatsi-Regular.ttf);
 }
 
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 body {
     background-color: #312F2F;
     margin: 0px;
@@ -26,8 +31,72 @@ body {
 }
 
 .topbar h1 {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: auto;
-  font-family: Alatsi;
+  font-family: Alata;
   font-size: 40px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sidebar {
+  width: 325px;
+  height: 750px;
+  margin-top: 50px;
+  margin-left: -30px;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+
+}
+.sidebar img {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation{
+  text-align: center;
+  font-family: Alata;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.navigation h3{
+  font-family: Alata;
+  font-size: 18px;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-family: Alata;
+  font-size: 25px;
+}
+
+p {
+  color:#FFFFFF;
+  font-family: Alata;
+}
+
+.games {
+  display: flex;
+  flex-direction: column; 
+}
+
+.game-embeds {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
